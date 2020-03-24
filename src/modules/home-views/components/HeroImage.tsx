@@ -10,6 +10,7 @@ const styles = {
     width: "100%",
     backgroundPosition: "50% 25%",
     backgroundSize: "cover",
+    backgroundAttachment:"fixed",
     "@media (min-width: 1025px)": {
       backgroundImage: `url(${SecondImage})`
     }
